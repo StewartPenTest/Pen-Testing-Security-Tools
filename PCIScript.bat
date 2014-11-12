@@ -1,4 +1,5 @@
 echo off
+
 REM set /P remoteip=enter IP or name of host (note you must be admin on this box):
 REM Set /P computername2=Enter the store number:
 REM Set /P id=Enter your user ID:
@@ -34,7 +35,6 @@ echo.>>%computername%_report.txt
 echo =================================================================================>>%computername%_report.txt
 
 echo.>>%computername%_report.txt
-
 
 REM get screen saver settings
 REM echo Screen Saver Settings>>%computername%_report.txt
